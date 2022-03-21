@@ -1,3 +1,5 @@
+AOS.init();
+
 const loader = document.querySelector(".loader.center");
 
 setTimeout(() => {
