@@ -1,0 +1,27 @@
+section#biography {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+section#biography h1 {
+  background: var(--c-darker);
+  color: #ffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+section#biography p {
+  text-align: justify;
+}
+section#biography .education,
+section#biography .occupation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  align-items: center;
+}
+section#biography .occupation {
+  max-width: 600px;
+}
