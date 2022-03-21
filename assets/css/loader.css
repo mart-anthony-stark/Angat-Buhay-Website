@@ -6,7 +6,7 @@
   flex-direction: column;
   gap: 20px;
   color: white;
-  transition: 1s ease;
+  transition: 2s ease;
 }
 .loader img#kween {
   height: 300px;
