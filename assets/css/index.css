@@ -1,11 +1,13 @@
 @import url("./loader.css");
 @import url("./navbar.css");
+@import url("./slider.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -15,6 +17,12 @@
   --c-white: rgb(255, 255, 255);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-pri);
+}
 body {
   background: linear-gradient(to bottom, var(--c-pri), var(--c-light));
 }
@@ -25,4 +33,9 @@ body {
 }
 section {
   min-height: 100vh;
+}
+
+section.landing {
+  padding: 30px;
+  padding-top: 90px;
 }
