@@ -2,6 +2,7 @@
 @import url("./navbar.css");
 @import url("./acronym.css");
 @import url("./slider.css");
+@import url("./biography.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap");
 * {
   margin: 0;
@@ -46,6 +47,7 @@ section.landing {
 section#about {
   display: flex;
   gap: 50px;
+  padding: 30px;
 }
 section#about p {
   max-width: 450px;
