@@ -1,5 +1,6 @@
 @import url("./loader.css");
 @import url("./navbar.css");
+@import url("./acronym.css");
 @import url("./slider.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap");
 * {
@@ -39,4 +40,31 @@ section {
 section.landing {
   padding: 30px;
   padding-top: 90px;
+}
+
+/* About page */
+section#about {
+  display: flex;
+  gap: 50px;
+}
+section#about p {
+  max-width: 450px;
+  text-align: center;
+}
+section#about img {
+  height: 400px;
+  border-radius: 100%;
+}
+
+@media (max-width: 1190px) {
+  section#about {
+    display: grid;
+    grid-template-rows: 0.7fr 0.7fr;
+    place-items: center;
+    gap: 0;
+  }
+  #about > img {
+    grid-row: 1/2;
+    height: 300px !important;
+  }
 }
