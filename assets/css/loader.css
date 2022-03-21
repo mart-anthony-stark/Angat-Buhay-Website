@@ -1,0 +1,14 @@
+.loader {
+  background: var(--c-pri);
+  position: fixed;
+  z-index: 99;
+  inset: 0;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.loader img#kween {
+  height: 300px;
+  border-radius: 100%;
+  border: 3px solid white;
+}
