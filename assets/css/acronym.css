@@ -1,0 +1,30 @@
+section#about .name {
+  position: absolute;
+  left: 20px;
+  color: aliceblue;
+  z-index: 1;
+}
+section#about .name .letter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+section#about .name .letter h1 {
+  font-size: 75px;
+  cursor: pointer;
+}
+section#about .name .letter span {
+  font-size: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  background: var(--c-darker);
+  padding: 10px 40px;
+  border-radius: 5px;
+  transition: 0.8s ease;
+}
+section#about .name .letter:hover span {
+  visibility: visible;
+  transform: translateY(0px);
+  opacity: 1;
+}
