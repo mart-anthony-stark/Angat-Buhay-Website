@@ -12,3 +12,6 @@
   border-radius: 100%;
   border: 3px solid white;
 }
+.loader h1 {
+  font-size: 45px;
+}
