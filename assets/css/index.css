@@ -15,7 +15,7 @@
 }
 
 body {
-  /* background: var(--c-pri); */
+  background: linear-gradient(to bottom, var(--c-pri), var(--c-light));
 }
 .center {
   display: flex;

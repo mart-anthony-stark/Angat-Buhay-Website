@@ -1,11 +1,12 @@
 .loader {
-  background: var(--c-pri);
+  background: linear-gradient(to bottom, var(--c-pri), var(--c-light));
   position: fixed;
   z-index: 99;
   inset: 0;
   flex-direction: column;
   gap: 20px;
   color: white;
+  transition: 1s ease;
 }
 .loader img#kween {
   height: 300px;
