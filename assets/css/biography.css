@@ -1,6 +1,13 @@
 section#biography {
   padding: 30px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.two-cols {
+  display: flex;
   justify-content: center;
   gap: 50px;
 }
@@ -24,4 +31,14 @@ section#biography .occupation {
 }
 section#biography .occupation {
   max-width: 600px;
+}
+.congress {
+  max-width: 800px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
