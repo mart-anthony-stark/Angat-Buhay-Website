@@ -42,3 +42,10 @@ section#biography .occupation {
   justify-content: center;
   align-items: center;
 }
+section#biography h3 {
+  background: var(--c-darker);
+  color: #ffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
